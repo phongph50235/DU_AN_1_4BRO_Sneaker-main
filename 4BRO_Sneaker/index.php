@@ -20,7 +20,8 @@ match ($act) {
     '/'=>(new HomeController()) ->home(), //truongwf hopwj ddawcj bieetj
     'trang-chu' => (new HomeController()) ->trangChu(),
     // BASE_URL/?act=trang-chu
-    'danh-sach-sp' =>(new HomeController())->danhsachSanPham()
+    'danh-sach-sp' =>(new HomeController())->danhsachSanPham(),
+    'gio-hang' =>(new HomeController())->gioHang()
     // BASE_URL/?act=danh-sach-sp
 
 };

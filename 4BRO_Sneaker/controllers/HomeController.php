@@ -16,6 +16,9 @@ class HomeController
     {
         echo 'dday la trang chu';
     }
+    public function gioHang(){
+        echo'ddaay laf gior hang';
+    }
     public function danhsachSanPham()
     {
         echo 'dday la danh sach san pham';
